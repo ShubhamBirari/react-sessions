@@ -1,5 +1,46 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  border: 1px solid #bdbdbd;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.input-container {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.input-container > label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-container > input {
+  padding: 8px;
+  font-size: 16px;
+  width: 240px;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.btn-submit {
+  background-color: #1149bb;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: none;
 }
 
 .App-logo {
