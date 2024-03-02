@@ -1,79 +1,44 @@
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+.header-container {
+  padding: 16px;
+  border-bottom: 1px solid #bdbdbd;
 }
 
-.login-container {
+.logo {
+  height: 60px;
+  width: 60px;
   border: 1px solid #bdbdbd;
-  padding: 32px;
-  border-radius: 4px;
+  margin-right: 32px;
 }
 
-.input-container {
-  display: block;
-  margin-bottom: 24px;
-}
-
-.input-container > label {
-  display: block;
-  margin-bottom: 6px;
-}
-
-.input-container > input {
-  padding: 8px;
-  font-size: 16px;
-  width: 240px;
-}
-
-.radio-container {
+.book-list {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: start;
 }
 
-.btn-submit {
-  background-color: #1149bb;
+.card-container {
+  border: 1px solid #bdbdbd;
+  margin: 12px;
+  padding: 16px;
+  min-height: 180px;
+}
+
+.card-image {
+  min-height: 160px;
+  margin-bottom: 8px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background: grey;
   color: white;
-  padding: 8px;
-  width: 100%;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 50%;
   box-shadow: none;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: none;
+  font-size: 16px;
+  height: 32px;
+  width: 32px;
+  background: blue;
 }
