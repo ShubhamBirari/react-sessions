@@ -1,6 +1,8 @@
 .header-container {
   padding: 16px;
   border-bottom: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -12,6 +14,7 @@
 
 .book-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card-container {
@@ -29,6 +32,7 @@
 .card-footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .btn {
@@ -41,4 +45,17 @@
   height: 32px;
   width: 32px;
   background: blue;
+}
+
+.cart-container {
+  display: block;
+  padding: 8px;
+  border: 1px solid #bdbdbd;
+  width: 300px;
+  margin: 0px 16px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
 }
